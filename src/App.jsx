@@ -1,27 +1,31 @@
 
 import './App.css'
 import Product from './components/Product'
+import Image1 from "/src/assets/Infinix.jpg"
+import Image2 from "/src/assets/IPhone.jpg"
+import Image3 from "/src/assets/Itel.jpg"
+import Image4 from "/src/assets/Samsung.jpg"
 function App() {
   const productData = [
     {
       productName:"Infinix Smart8",
       productPrice:"98,000",
-      productImage:"./Images/Infinix Smart8.jpg"
+      productImage:Image1
   },
   {
       productName:"IPhone 12",
       productPrice:"2,000,000",
-      productImage:"./Images/IPhone 12.jpg"
+      productImage:Image2
   },
   {
       productName:"Itel S23",
       productPrice:"80,000",
-      productImage:"./Images/Itel S23.jpg"
+      productImage:Image3
   },
   {
       productName:"Samsung Galaxy A15",
       productPrice:"1,500,000",
-      productImage:"./Images/samsung galaxy A15.jpg"
+      productImage:Image4
   }
 ]
 
